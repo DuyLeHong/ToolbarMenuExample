@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_new_game"
+        android:title="New Game"
+        android:icon="@mipmap/gamepad"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_leader_board"
+        android:title="Leader Board"
+        android:icon="@mipmap/podium"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_help"
+        android:title="Help"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/help"/>
+</menu>
